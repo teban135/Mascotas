@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-(wav6qdh09#nq()-z(c0y4a5elb!-6(82se-8acip$uc#9c(x#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ["mascotas-production-5b2f.up.railway.app", "localhost", "127.0.0.1"]
 
 #Configuración de CORS
 CORS_ALLOW_ALL_ORIGINS = True
